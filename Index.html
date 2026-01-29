@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Telegram Channel</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #ffffff;
+            overflow-x: hidden;
+            animation: gradientShift 10s ease-in-out infinite alternate;
+        }
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+        h1, h2, h3 {
+            font-weight: 700;
+        }
+        p {
+            font-weight: 400;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* Glassmorphism Cards */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            margin: 20px 0;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+        }
+        /* Buttons */
+        .cta-button {
+            background: linear-gradient(45deg, #00d4ff, #8a2be2, #00ffff);
+            color: #ffffff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
+        }
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 212, 255, 0.5);
+        }
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 100px 20px 50px;
+            position: relative;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid transparent;
+            background: linear-gradient(45deg, #00d4ff, #8a2be2, #00ffff) border-box;
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+            margin: 0 auto 30px;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #00d4ff, #8a2be2, #00ffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        /* Sections */
+        .section {
+            padding: 80px 0;
+        }
+        .section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            background: linear-gradient(45deg, #00d4ff, #8a2be2, #00ffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .list-item {
+            text-align: center;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.6s ease;
+        }
+        .list-item.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .footer a {
+            color: #00d4ff;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .section h2 {
+                font-size: 2rem;
+            }
+            .list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <img src="logo.jpg" alt="Telegram Profile Picture" class="profile-pic">
+            <h1>Welcome to my Demo landing page</h1>
+            <p>MENE YEH LANDING PAGE BAS DEMO KE LIYE BNAYA HAI AUR JAYDA JANNE KE LIYE MERA TELEGRAM JOIN KROW THANKS FOR COMMING HERE</p>
+            <a href="https://t.me/+YS8HM4eEHnZmYmZl" class="cta-button">Join Telegram Channel</a>
+        </div>
+    </section>
+
+    <!-- What You’ll Learn Section -->
+    <section class="section">
+        <div class="container">
+            <h2>What You’ll Get</h2>
+            <div class="list">
+                <div class="list-item glass-card">
+                    <h3>Modern Landing Page Design</h3>
+                    <p>Whatever you want to put here Like im a web dev so i put about Web dev.</p>
+                </div>
+                <div class="list-item glass-card">
+                    <h3>UI/UX Tips & Animations</h3>
+                    <p>Discover tips for intuitive interfaces and smooth animations.</p>
+                </div>
+                <div class="list-item glass-card">
+                    <h3>PDF Editing Tricks</h3>
+                    <p>Learn professional techniques to edit and enhance PDFs.</p>
+                </div>
+                <div class="list-item glass-card">
+                    <h3>Creative Photo Editing Techniques</h3>
+                    <p>Unlock skills for stunning photo manipulations and edits.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Join This Channel Section -->
+    <section class="section">
+        <div class="container">
+            <h2>Why Join This Channel</h2>
+            <div class="list">
+                <div class="list-item glass-card">
+                    <h3>Practical Tutorials</h3>
+                    <p>Step-by-step guides you can apply immediately.</p>
+                </div>
+                <div class="list-item glass-card">
+                    <h3>Ready-to-Use Design Ideas</h3>
+                    <p>Get inspired with templates and ideas for your projects.</p>
+                </div>
+                <div class="list-item glass-card">
+                    <h3>Clean, Modern Visuals</h3>
+                    <p>Focus on aesthetics that stand out in today's digital world.</p>
+                </div>
+                <div class="list-item glass-card">
+                    <h3>Beginner to Advanced Friendly</h3>
+                    <p>Content tailored for all skill levels.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <a href="https://t.me/+YS8HM4eEHnZmYmZl" class="cta-button">Join Telegram Channel</a>
+            <p>Follow us on <a href="https://t.me/+YS8HM4eEHnZmYmZl" target="_blank">Telegram</a> for more updates.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.list-item').forEach(item => {
+            observer.observe(item);
+        });
+
+        // Subtle background animation (already in CSS)
+        // Hover effects are handled in CSS
+    </script>
+</body>
+  </html>
